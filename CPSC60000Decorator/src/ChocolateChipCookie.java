@@ -6,7 +6,10 @@ public class ChocolateChipCookie extends Dessert{
 	}
 	
 	public double cost() {
-		return 2.99;
+		return 3;
 	}
 	
+	public double GrandmaPoints() {
+		return 6;
+	}
 }

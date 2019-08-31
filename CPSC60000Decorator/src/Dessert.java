@@ -9,4 +9,5 @@ public abstract class Dessert {
 		
 	public abstract double cost();
 	
+	public abstract double GrandmaPoints();
 }

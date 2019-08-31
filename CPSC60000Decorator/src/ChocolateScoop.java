@@ -1,14 +1,14 @@
 
-public class VanillaScoop extends ToppingsDecorator {
+public class ChocolateScoop extends ToppingsDecorator {
 	
 	Dessert dessert;
 	
-	public VanillaScoop(Dessert dessert) {
+	public ChocolateScoop(Dessert dessert) {
 		this.dessert = dessert;
 	}
 
 	public String getDescription() {
-		return dessert.getDescription() + ", Vanilla Scoop";
+		return dessert.getDescription() + ", Chocolate Scoop";
 	}
 	
 	public double cost() {

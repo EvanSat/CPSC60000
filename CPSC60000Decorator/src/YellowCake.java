@@ -8,4 +8,8 @@ public class YellowCake extends Dessert {
 	public double cost() {
 		return 3.49;
 	}
+	
+	public double GrandmaPoints() {
+		return 7;
+	}
 }
